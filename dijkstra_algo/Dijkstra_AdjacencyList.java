@@ -161,27 +161,7 @@ public class Dijkstra_AdjacencyList {
 		adjlist.add_edge(0, 2, 13);
 		adjlist.add_edge(0, 3, 5);
 		
-		adjlist.add_edge(1, 7, 11);
-		
-		adjlist.add_edge(2, 1, 2);
-		adjlist.add_edge(2, 5, 6);
-		adjlist.add_edge(2, 3, 18);
-		
-		adjlist.add_edge(3, 4, 4);
-		adjlist.add_edge(3, 8, 99);
-		
-		adjlist.add_edge(4, 2, 3);
-		adjlist.add_edge(4, 5, 1);
-		adjlist.add_edge(4, 6, 9);
-		adjlist.add_edge(4, 8, 14);
-		
-		adjlist.add_edge(5, 1, 8);
-		adjlist.add_edge(5, 7, 17);
-		
-		adjlist.add_edge(6, 5, 16);
-		adjlist.add_edge(6, 8, 10);
-		
-		adjlist.add_edge(8, 7, 12);
+
 		
 
 		adjlist.print_list();
